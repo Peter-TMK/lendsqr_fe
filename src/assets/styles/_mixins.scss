@@ -1,0 +1,69 @@
+@mixin centerItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin button {
+  max-width: 447px;
+  padding: 10px;
+  outline: none;
+  border: 0;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: $tertiary-text-color;
+  cursor: pointer;
+}
+
+@mixin status-style {
+  font-family: $font-family2;
+  font-size: $smaller;
+  font-weight: $thin;
+  line-height: 16.42px;
+  text-align: left;
+  color: $secondary-text-color;
+}
+
+@mixin borrowers-features {
+  font-family: $font-family2;
+  font-size: $small;
+  font-weight: $thin;
+  line-height: 18.77px;
+  text-align: left;
+  color: $primary-text-color;
+}
+
+@mixin borrower-details-p {
+  width: 75px;
+  height: 14px;
+  font-family: $font-family2;
+  font-size: $smallest;
+  font-weight: $regular;
+  line-height: 14.08px;
+  text-align: left;
+  color: #545f7d;
+  margin-bottom: 20px;
+}
+@mixin borrower-details-nav {
+  display: flex;
+  margin-bottom: 31px;
+  cursor: pointer;
+  text-align: left;
+  flex: 1 1 157.87px;
+  height: 19px;
+  padding-left: 30px;
+}
+@mixin borrower-details-nav-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+@mixin borrower-details-nav-p {
+  width: fit-content;
+  height: 19px;
+  font-family: $font-family2;
+  font-size: $small;
+  font-weight: $thin;
+  line-height: 18.77px;
+  text-align: left;
+}
